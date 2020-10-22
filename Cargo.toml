@@ -1,0 +1,17 @@
+[package]
+name = "nimbus-shared"
+version = "1.0.0"
+authors = ["Kate Hudson <k88hudson@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "generate"
+path = "src/bin.rs"
+
+[lib]
+name = "nimbus"
+path = "src/lib.rs"
+
+[dependencies]
+schemars = "0.8.0"
+serde_json = "1.0"
